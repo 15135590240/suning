@@ -120,26 +120,32 @@ a{
     width:85px;
     height:36px;
     text-align: center;
+    line-height: 36px;
     /* padding:0 10px 0; */
     float:left;
     color:#666;
 }
 .dhl .left .left1 .icon-xiajiantou{
     font-size: 10px;
-    line-height: 36px;
+
 }
 .dhl .left .icon-weizhi{
     color:#FFAA00
 }
-.dhl .left .yy:hover .yy1{
-    transform: rotate(-180deg);
-    transition: 1s;
-}
+
 .dhl .left .left1:hover{
     background-color:#fff;
 }
-.dhl .left .yy:hover span{
+.dhl .left .left8:hover span{
     color: #ff6600;
+}
+.dhl .left .left1 .yy{
+    display: inline-block;
+}
+.dhl .left .left1:hover .yy{
+    
+    transform: rotate(-180deg);
+    transition: 1s;
 }
 .dhl .right{
     width:auto;
@@ -1850,3 +1856,7 @@ a{
     text-align:center;
 }
 /* 底部结束 */
+
+
+
+
